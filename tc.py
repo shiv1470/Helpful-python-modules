@@ -1,5 +1,5 @@
 from random import randint, shuffle, choices
-def generateRandomTree(numOfNodes, Dense = False, Sparse = False): #generate a random tree of N-1 edges on Nodes from 0 to N-1.
+def generateRandomTree(numOfNodes, Dense = False, Sparse = False): #generate a random tree of N-1 edges on Nodes from 1 to N.
     if Dense and Sparse:
         raise SyntaxError # "Tree cannot be Dense and Sparse."
     n = numOfNodes
